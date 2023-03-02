@@ -1,0 +1,234 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  background-color: #e5e5e5;
+  padding: 40px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.wriper {
+  display: flex;
+  flex-direction: row-reverse;
+  background: #ffffff;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+/* Main content */
+.main-content {
+  padding: 88px;
+}
+
+.main-content-titel {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000000;
+  margin: 0px 0px 8px 0px;
+}
+
+/* About me */
+.my-profesion {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 0px 0px 18px 0px;
+}
+.my-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  color: #000000;
+  margin: 0px 0px 28px 0px;
+}
+.my-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  width: 525px;
+}
+.about-me-conteiner {
+  margin-bottom: 64px;
+}
+
+/* Projects */
+.project-item {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000000;
+}
+.project-list {
+  padding: 0px 0px 0px 14px;
+  margin: 0px;
+}
+.projects-conteiner {
+  margin-bottom: 48px;
+}
+.project-item-description {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+
+.project-item-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration-line: underline;
+  color: #005fff;
+}
+
+/* Work Expiriance */
+.work-expiriance-conteiner {
+  margin-bottom: 44px;
+}
+.work-expiriance-place {
+  margin-bottom: 16pxs;
+}
+.work-expiriance-position {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000000;
+  margin: 0 px;
+}
+.work-expiriance-company {
+  color: #6d9bf5;
+}
+.work-period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 12px 0px 8px 0px;
+}
+.work-duties {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+  }
+.work-duties-list {
+  padding: 0px 0px 0px 14px;
+  margin: 0px;
+}
+
+/* Education */
+.education-place {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #6d9bf5;
+  margin: 12px 0px 12px 0px;
+}
+.education-branch {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  color: #000000;
+  margin: 12px 0px 0px 0px;
+}
+.education-period {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin: 12px 0px 0px 0px;
+}
+
+/* Sidebar */
+.Sidebar {
+  width: 370px;
+  background: #e0ebfe;
+}
+.my-photo {
+  margin-top: 40px;
+}
+.contacts-conteiner,
+.tech-skills-container,
+.sost-skills-container {
+  margin: 48px 0px 0px 48px;
+}
+.sitebar-title {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #161d2a;
+  margin-bottom: 8px;
+}
+
+/* Contscts */
+.contacts-type {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+  margin-right: 8px;
+}
+.contscts-item {
+  margin: 0px;
+}
+.contacts-namber {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+}
+.contacts-email {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #2979ff;
+}
+
+/* Tech skills */
+.skils-list {
+  margin: 0px;
+  padding: 0px 0px 0px 14px;
+}
+.skils-list-item {
+  color: #6d9bf5;
+}
+.skils-list-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+}
+/* Soft scills */
+.soft-skils-list {
+  margin: 0px;
+  padding: 0px 0px 0px 14px;
+}
+.soft-skils-list-item {
+  color: #6d9bf5;
+}
+.soft-skils-list-text {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #161d2a;
+}
